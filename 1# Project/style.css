@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('./assets/background.png') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  overflow: hidden;
+}
+
+.ParallaxG {
+  width: 391px;
+  position: absolute;
+  bottom: -50px;
+  left: 35%;
+}
+.smoke {
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+  mix-blend-mode: lighten;
+  animation: rotationLeft 15s linear infinite;
+}
+
+.smokes {
+  width: 150vw;
+  height: 275px;
+}
+
+@keyframes rotationLeft {
+  0% {
+    transform: translateZ(0);
+  }
+  50% {
+    transform: translate3d(-5%, 0, 0);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
+/* Begin Header style*/
+header {
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding: 0 10px;
+  font-weight: lighter;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.selected {
+  font-weight: normal;
+}
+a:hover {
+  color: #f72532;
+  transition: 0.25s;
+}
+div {
+  display: flex;
+  align-items: center;
+}
+span {
+  margin-right: 15px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: lighter;
+}
+/* End Header style and Begin Footer style*/
+footer {
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.colorN {
+  color: #f72532;
+}
+
+/* End Footer style and Begin Main style*/
+main {
+  padding: 15px 40px;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 53px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #fff;
+}
