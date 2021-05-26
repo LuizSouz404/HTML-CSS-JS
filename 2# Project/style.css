@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #fff5fd;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  height: 100%;
+}
+
+.window_point {
+  margin-right: 5px;
+  position: absolute;
+  width: 45px;
+  height: 100%;
+  background-color: transparent;
+}
+
+.pointer {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  color: #fff;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+.one {
+  top: 150px;
+}
+.two {
+  top: 195px;
+}
+.three {
+  top: 235px;
+}
+.four {
+  top: 285px;
+}
+.five {
+  top: 345px;
+}
+.six {
+  top: 400px;
+}
+.seven {
+  top: 455px;
+}
+
+.content {
+  top: 15%;
+  left: 5%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.titulo {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #333;
+}
+span {
+  width: 425px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+nav {
+  position: absolute;
+  flex: 1;
+  width: 100%;
+}
+
+.navigation {
+  margin: 25px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2c0dc;
+  margin-left: 15px;
+  width: 100px;
+  height: 50px;
+  border-radius: 42px;
+  text-decoration: none;
+  color: #fff;
+  transition: linear 0.5s;
+}
+
+.logo {
+  width: 50px;
+  filter: invert(13%) sepia(52%) saturate(6078%) hue-rotate(314deg)
+    brightness(102%) contrast(106%);
+}
+
+.searchB {
+  width: 50px;
+}
+.search {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%) sepia(1%) saturate(7500%) hue-rotate(76deg)
+    brightness(98%) contrast(117%);
+}
+
+a:hover {
+  background-color: #e488bd;
+}
