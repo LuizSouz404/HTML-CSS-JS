@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+header {
+  padding: 0.9375em 3.75em;
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 3.125em;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.875em;
+}
+
+.nav {
+  margin: 0 0.9375em;
+}
+
+.register {
+  padding: 1.25em 1.875em;
+  background: rgba(0, 134, 100, 0.75);
+}
+
+.main {
+  background: url('./assets/background.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.625em;
+  margin-bottom: 2.5em;
+  width: 70%;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 2.8125em;
+  width: 70%;
+}
+
+.consult-button {
+  padding: 1.5625em 4.6875em;
+  background: rgba(0, 134, 100, 1);
+  border-radius: 1.25em;
+}
+
+.data {
+  position: absolute;
+  bottom: -50px;
+  width: 80%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.data-div {
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 35px;
+  font-weight: 500;
+  color: #595353;
+}
+
+.data-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li > span {
+  color: #989898;
+}
