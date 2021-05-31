@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="bg">
+      <p id="hex"></p>
+    </div>
+    <script>      
+      function reloadData() {
+        x = 1
+
+        var today = new Date();
+        var hour = today.getHours();
+        var minute = today.getMinutes();
+        var seconds = today.getSeconds();
+
+        var time = '#'+hour+minute+seconds;
+        console.log(time)
+
+        document.getElementById("bg").style.backgroundColor = time;
+
+        document.getElementById('hex').textContent = time
+
+        setTimeout(reloadData, x*1000)
+      }
+
+      reloadData();
+    </script>
+  </body>
+</html>
