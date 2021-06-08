@@ -1,0 +1,124 @@
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+  border-radius: 32px;
+  box-shadow: 20px 20px 30px rgba(100,100,100,0.5);
+  background-color: #4D4D4D;
+}
+
+div.result {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 300px;
+  height: 350px;
+}
+p {
+  color: #fff;
+  font-weight: lighter;
+}
+p.viewer {
+  display: flex;
+  justify-content: flex-end;
+  width: 250px;
+  font-size: 50px;
+  height: 50px;
+  margin: 0px 30px 20px 0px;
+}
+
+p.previewer {
+  margin: 0px 30px 0px 0px;
+  font-size: medium;
+}
+
+div.divisor {
+  width: 80%;
+  height: 0.5px;
+  margin: 0px 10%;
+  background-color: #aaaaaa;
+}
+
+div.keyboard {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+div.rows-board {
+  margin: 3.5% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.rows-board_f {
+  margin: 3.5% 0%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  font-size: unset;
+  font-weight: 700;
+  color: #B1B1B1;
+  background-color: transparent;
+  margin: 0px 3%;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  border: none;
+  outline: 0;
+  overflow: hidden;
+}
+
+button.clear {
+  color: #fff;
+}
+
+button.equals {
+  color: #ffff;
+  background-color: #FF6F6F;
+  box-shadow: 3px 3px 10px rgb(255, 111, 111, 0.4);
+}
+
+button.ops.top {
+  color: #fff;
+}
+
+button.ops {
+  color: #FF6F6F;
+}
+
+button.operator-side:active {
+  opacity: 0.3;
+}
+
+button.num.b {
+  color: #fff;
+}
+
+button:active {
+  background-color: rgb(133, 133, 133);
+  opacity: 0.3;
+}
+button.submit:active {
+  background-color: #FF6F6F;
+  opacity: 0.3;
+}
