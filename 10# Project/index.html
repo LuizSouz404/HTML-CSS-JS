@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="Icon" href="./B2D.png">
+    <title>Bin2Dec</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <input type="text" maxlength="8" placeholder="Binary" id="bin">
+    <p>=</p>
+    <input type="text" placeholder="Decimal" id="decimal">
+    <button onclick="bin2dec()">Submit</button>
+
+    <script type="text/javascript">
+      function bin2dec() {
+        var binary = document.getElementById("bin").value;
+        var dec = 0;
+
+
+        for( var i=binary.length-1; i>=0; i -- ) {
+          if(binary[i] == "1" || binary[i] == "0") {
+            dec += parseInt(binary[i])*Math.pow(2, binary.length-1-i);
+          } else {
+            return document.getElementById("decimal").value = "error"
+          }
+        }
+
+         return document.getElementById("decimal").value = dec
+
+      } 
+    </script>
+  </body>
+</html>
