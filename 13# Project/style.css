@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(158, 195, 250, 0.8);
+}
+
+.win {
+  margin: 0 30px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 414px;
+  height: 896px;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.carrosel {
+  margin-bottom: 75px;
+  width: 100%;
+  height: 305px;
+}
+
+.imagens {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: fit-content;
+  height: 261px;
+}
+
+.perfil {
+  margin: 77px;
+  width: 261px;
+  height: 261px;
+  flex-wrap: nowrap;
+  background-image: url(./assets/cropped-Troye-Sivan-Net-Worth.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+.index-imagens {
+  margin-top: 30px;
+  height: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.local   {
+  width: 15px;
+  height: 15px;
+  background-color: #bdbaba;
+  border-radius: 100%;
+  
+  margin: 0px 7px;
+}
+
+.two:hover {
+  fill: red;
+}
+
+.title {
+  margin: 54px 0;
+  font-weight: 600;
+  font-size: 48px;
+  color: #676464;
+  width: 357px;
+  text-align: center;
+}
+
+.button-finder {
+  width: 353px;
+  height: 70px;
+  background-color: #4B5DFB;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;  
+  filter: drop-shadow(10px 10px 25px #9DC2FA);
+}
+
+.top-bar {
+  width: 80%;
+  height: 52px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.secon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.premium-message {
+  margin: 30px;
+  width: 352px;
+  height: 100px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(183, 210, 252, 0.45);
+}
+
+.second {
+  width: 352px;
+  height: 407px;
+  margin: 30px 0;
+  border-radius: 50px;
+}
+
+strong,p {
+  color: rgb(101,29,255,55);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 208px;
+  height: 68px;
+}
+
+.primary-op {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  margin: 0 25px;
+  border-radius: 100%;
+  background-color: #9D70FF;
+}
+
+.secondary-op {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: #b7d2fc6e;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 352px;
+  height: 72px;
+  background-color: #4B5DFB;
+  border-radius: 21px;
+  margin-top: 15px;
+}
