@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+}
+
+p, button, h2 {
+  font-family: 'Noto Sans JP', Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+
+input, body {
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+.win {
+  border-radius: 30px;
+  margin: 10px;
+  background-color: #fff;
+  width: 375px;
+  height: 812px;  
+  padding: 29px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.first {
+  background-image: url(./assets/_dH-oQF9w-Y.png);
+}
+
+.second {
+  background: url(./assets/1Z7QDZqT2QQ.png);
+  background-color: #00000002;
+  backdrop-filter: blur(5px);
+}
+
+
+.wel {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 56px;
+  color: #EA8246;
+}
+
+.user {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 53px;
+  color: #72978F;
+}
+
+.user-name {
+  width: 248px;
+  height: 106px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.first-button {
+  background-color: #000000;
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  width: 320px;
+  height: 74px;   
+}
+
+.second-button {
+  font-size: 16px;
+  line-height: 27px;
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+  width: 321px;
+  height: 64px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(39px);
+  border-radius: 5px;
+}
+
+.local{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 320px;
+  height: 451px;
+  overflow: hidden;
+}
+
+.local::before{
+  content: '';
+  top: 16px;
+  margin: 16px 14px;
+  left: 14px;
+  width: 293px;
+  height: 369px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 2000px #fff;
+}
+
+
+.local-name {
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+}
+
+.title-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
