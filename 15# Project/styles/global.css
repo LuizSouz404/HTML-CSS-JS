@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: azure;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body, input, button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.win {
+  width: 414px;
+  height: 896px;
+  margin: 0 25px;
+  border-radius: 20px;
+
+  border: 1px solid #000000;
+}

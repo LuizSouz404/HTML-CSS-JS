@@ -1,0 +1,45 @@
+.one {
+  background: url(../../assets/background.png);
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one .splash {
+  width: 262px;
+  height: 262px;
+
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+}
+
+.one .splash img {
+  width: 175px;
+  height: 120px;
+}
+
+.one .splash span {
+  font-size: 10px;
+  color: #FA4A0C;
+  font-weight: 600;
+}
+
+.one .splash .load {
+  width: 28px;
+  height: 28px;
+  margin-top: 25px;
+  border-radius: 100%;
+
+  border: 1.5px solid #FF240C;
+  box-sizing: border-box;
+  transform: rotate(51.76deg);
+}
