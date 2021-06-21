@@ -68,6 +68,10 @@ $ git clone https://github.com/LuizSouz404/HTML-CSS-JS.git && cd HTMLCSSJS
 
 ## 🤔 Como contribuir
 
+Se você encontrar algum erro ou algo desatualizado por favor envie um pull request para eu estar atualizando.
+
+Desde já agradeço. 🤝
+
 ## 📝 Licença
 
 Esse Projeto está sob a licença MIT - Veja o arquivo para detalhes [LICENSE](LICENSE)
