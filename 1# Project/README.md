@@ -1,14 +1,14 @@
 <h1 align="center">
-	<img alt="Logo" src="https://www.firstcomicsnews.com/wp-content/uploads/2017/07/Witcher-logo-600x257.png" width="400px" />
+	<img alt="Logo" src="https://i.pinimg.com/originals/67/2d/83/672d8341bb18f141ebf142bd50324700.png" width="400px" />
   <br>
-  Web Site da série The Witcher do Netflix
+   Web Site da sobre os 7 Chakras
 </h1>
 
 <h3 align="center">
-  Testando Parallax
+  Testando animate
 </h3>
 
-<p align="center">Um pequeno teste utilizando um pouco de parallax e animação</p>
+<p align="center">Um pequeno teste utilizando um pouco animação no js</p>
 
 <p align="center">
   <a href="#-sobre-o-repositorio">👨🏻‍💻 Sobre o repositorio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,15 +18,16 @@
   <a href="#-licença">📝 Licença</a>
 </p>
 
-<img alt="Layout" src="https://user-images.githubusercontent.com/79121809/122983627-95ecf900-d372-11eb-9ad7-a572d18a1fb3.gif">
+<img alt="Layout" src="https://user-images.githubusercontent.com/79121809/123361690-e799ad00-d545-11eb-93b0-7f015f8d7bbc.gif">
 
 ## 👨🏻‍💻 Sobre o repositorio
 
-Nesse projeto eu queria tentar fazer um efeito bem legal que já vi em outros sites, o efeito Parallax, eu gostei do resultado(considerando que é a primeira tentativa), foi bem tranquilo fazer esse efeito não deu muito problema, existe bastante conteúdo na web sobre esse efeito.
+Nesse projeto eu queria tentar fazer o efeito de hover e mudar as informações de outro elemento, eu tive uns problemas mas foi bem simples no final, a lógica por trás não parece ser a das melhores mas serviu muito bem.
 
 Esse projeto tem um pouco de responsividade até certo ponto, mas vale futuramente eu melhorar isso.
 
 O Wireframe e o prototipo estão nesse [FIGMA](https://www.figma.com/file/NrilgL2kkvihkz7q6RfJoI/HTML-Principles?node-id=3%3A2)
+)
 
 ## 🚀 Tecnologias
 
