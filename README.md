@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fapexensino.com.br%2Fbase-da-programacao-front-end%2F&psig=AOvVaw1C8rxnV7zu_s7bi1NWJDqz&ust=1640810251324000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiao9qsh_UCFQAAAAAdAAAAABAX" width="200px" />
+  <img alt="Logo" src="https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg" width="200px" />
 </h1>
 
 <h3 align="center">
