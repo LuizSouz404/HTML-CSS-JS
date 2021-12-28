@@ -1,5 +1,7 @@
 <h1 align="center">
-  <img alt="Logo" src="https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg" width="200px" />
+  <img alt="Logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" width="200px" />
+  <img alt="Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" width="200px" />
+  <img alt="Logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" width="200px" />
 </h1>
 
 <h3 align="center">
